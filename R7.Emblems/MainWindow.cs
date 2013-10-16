@@ -285,6 +285,11 @@ namespace R7.Emblems
 			// FIXME: emblem-favorite or other may not exist in a theme!
 			this.Icon = IconTheme.Default.LoadIcon("emblem-favorite", 48, IconLookupFlags.ForceSvg);
 
+			Emblems = CreateEmblemButtons ();
+			FillTable (3, Emblems);
+
+			// TODO: Check if file exists and accessible
+
 			// Stetic not saving properties fix
 			filechooser1.BorderWidth = 6;
 
@@ -310,9 +315,6 @@ namespace R7.Emblems
 				SetFileChooserAction (filechooser1, FileChooserAction.Open);
 				filechooser1.SetFilename (Program.Filename);
 			}
-
-			Emblems = CreateEmblemButtons ();
-			FillTable (3, Emblems);
 
 			if (string.IsNullOrWhiteSpace (Program.Filename))
 			{
