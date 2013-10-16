@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E810CCD9-DCF9-40B7-885E-7D78C2F8FB11}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Sources">
+          <Builder targetFile="..\R7.Emblems-1.1-Sources.tar.gz" format="MonoDevelop.Projects.FileFormat" ctype="SourcesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="..\R7.Emblems\R7.Emblems.csproj" />
+              <SolutionItemReference path="..\Translation\Translation.mdproj" />
+              <SolutionItemReference path="Packages.mdproj" />
+            </ChildEntries>
+            <RootEntry path="..\R7.Emblems.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Linux Binaries">
+          <Builder targetFile="..\R7.Emblems-1.1-Binaries.tar.gz" platform="Linux" configuration="Release|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="..\R7.Emblems\R7.Emblems.csproj" />
+              <SolutionItemReference path="..\Translation\Translation.mdproj" />
+            </ChildEntries>
+            <RootEntry path="..\R7.Emblems.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

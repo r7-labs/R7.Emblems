@@ -1,0 +1,19 @@
+
+[Desktop Entry]
+Type=Action
+ToolbarLabel=Edit emblems...
+ToolbarLabel[ru_RU]=Редактировать эмблемы...
+ToolbarLabel[ru]=Редактировать эмблемы...
+Icon=emblem-cool
+Name=Edit emblems...
+Name[ru_RU]=Редактировать эмблемы...
+Name[ru]=Редактировать эмблемы...
+
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+SelectionCount==1
+Exec=mono /usr/local/lib/r7-emblems/R7.Emblems.exe %f
+Name=Default profile
+Name[ru_RU]=Default profile
+Name[ru]=Default profile

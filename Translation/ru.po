@@ -1,0 +1,378 @@
+# Russian translation for Redhound.Nautilus.Emblems
+msgid ""
+msgstr ""
+"Project-Id-Version: Redhound.Nautilus.Emblems 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-23 16:08:56+0400\n"
+"PO-Revision-Date: 2013-01-23 16:09:05+0400\n"
+"Last-Translator: redhound <roman.yagodin@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: MonoDevelop Gettext addin\n"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-vnc"
+msgstr "VNC"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-sftp"
+msgstr "SFTP"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-sales"
+msgstr "Продажи"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-money"
+msgstr "Финансы"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-sound"
+msgstr "Звук"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-documents-symbolic"
+msgstr "Документы"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-marketing"
+msgstr "Маркетинг"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-shared"
+msgstr "Общедоступное"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-development"
+msgstr "Разработка"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-system"
+msgstr "Система"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-mail"
+msgstr "Почта"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ubuntuone-synchronized"
+msgstr "Синхронизировано"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-cool"
+msgstr "Клёво"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-synchronizing-symbolic"
+msgstr "Синхронизируется"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-urgent"
+msgstr "Срочно"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-presentation"
+msgstr "Презентация"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-nowrite"
+msgstr "Запись невозможна"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-xdmcp"
+msgstr "XDMCP"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-music-symbolic"
+msgstr "Музыка"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ok-symbolic"
+msgstr "OK"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-important"
+msgstr "Важно"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-important-symbolic"
+msgstr "Важно"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "slideshow-emblem"
+msgstr "Слайдшоу"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-documents"
+msgstr "Документы"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-downloads"
+msgstr "Загрузки"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-photos-symbolic"
+msgstr "Фото"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-OK"
+msgstr "OK"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-camera"
+msgstr "Камера"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-multimedia"
+msgstr "Мультимедиа"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-readonly"
+msgstr "Только для чтения"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-nx"
+msgstr "NX"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-desktop"
+msgstr "Рабочий стол"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-favorite"
+msgstr "Избранное"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-unreadable"
+msgstr "Нечитаемое"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-web"
+msgstr "Веб"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-new"
+msgstr "Новое"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-system-symbolic"
+msgstr "Система"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-shared-symbolic"
+msgstr "Общедоступное"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-favorite-symbolic"
+msgstr "Избранное"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-videos-symbolic"
+msgstr "Видео"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-photos"
+msgstr "Фото"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-rdp"
+msgstr "RDP"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-art"
+msgstr "Искусство"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-generic"
+msgstr "Общее"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-default-symbolic"
+msgstr "По умолчанию"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ubuntuone-updating"
+msgstr "Обновляется"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-people"
+msgstr "Люди"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ohno"
+msgstr "О, нет!"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ubuntuone-unsynchronized"
+msgstr "Не синхронизировано"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-package"
+msgstr "Пакет"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-videos"
+msgstr "Видео"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-rdp-ssh"
+msgstr "RDP-SSH"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-personal"
+msgstr "Личное"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-noread"
+msgstr "Чтение невозможно"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-pictures"
+msgstr "Изображения"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-draft"
+msgstr "Черновик"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-danger"
+msgstr "Опасное"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-xdmcp-ssh"
+msgstr "XDMCP-SSH"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-default"
+msgstr "По умолчанию"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-plan"
+msgstr "План"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-synchronizing"
+msgstr "Синхронизируется"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-vnc-ssh"
+msgstr "VNC-SSH"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-symbolic-link"
+msgstr "Ссылка"
+
+#: ../Redhound.Emblems/MainWindow.cs:20
+msgid "Select a file"
+msgstr "Выберите файл"
+
+#: ../Redhound.Emblems/MainWindow.cs:20
+msgid "Select a folder"
+msgstr "Выберите файл"
+
+#: ../Redhound.Emblems/MainWindow.cs:21
+#: ../Redhound.Emblems/MainWindow.cs:34
+msgid "Emblems"
+msgstr "Эмблемы"
+
+#: ../Redhound.Emblems/MainWindow.cs:34
+msgid "Roman M. Yagodin <roman.yagodin@gmail.com>"
+msgstr "Роман М. Ягодин <roman.yagodin@gmail.com>"
+
+#: ../Redhound.Emblems/MainWindow.cs:34
+msgid "English, Russian"
+msgstr "English, Русский"
+
+#: ../Redhound.Emblems/gtk-gui/Redhound.Emblems.MainWindow.cs:1
+msgid "File"
+msgstr "Файл"
+
+#: ../Redhound.Emblems/gtk-gui/Redhound.Emblems.MainWindow.cs:1
+msgid "Folder"
+msgstr "Папка"
+
+#: ../Redhound.Emblems/gtk-gui/Redhound.Emblems.MainWindow.cs:1
+msgid "About"
+msgstr "О программе"
+
+#~ msgid "2012-2013 Roman M. Yagodin <roman.yagodin@gmail.com>"
+#~ msgstr "2012-2013 Роман М. Ягодин <roman.yagodin@gmail.com>"
+
+#~ msgid "Nautilus Emblems"
+#~ msgstr "Эмблемы Nautilus"
+
+#~ msgid "Art"
+#~ msgstr "Искусство"
+
+#~ msgid "Camera"
+#~ msgstr "Камера"
+
+#~ msgid "Cool"
+#~ msgstr "Клёво"
+
+#~ msgid "Danger"
+#~ msgstr "Опасность"
+
+#~ msgid "Desktop"
+#~ msgstr "Рабочий стол"
+
+#~ msgid "Draft"
+#~ msgstr "Черновик"
+
+#~ msgid "Favorite"
+#~ msgstr "Избранное"
+
+#~ msgid "Money"
+#~ msgstr "Деньги"
+
+#~ msgid "New"
+#~ msgstr "Новое"
+
+#~ msgid "Ohno"
+#~ msgstr "Удивительно"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Package"
+#~ msgstr "Пакет"
+
+#~ msgid "People"
+#~ msgstr "Люди"
+
+#~ msgid "Photos"
+#~ msgstr "Фото"
+
+#~ msgid "Plan"
+#~ msgstr "План"
+
+#~ msgid "Sales"
+#~ msgstr "Продажи"
+
+#~ msgid "Shared"
+#~ msgstr "Общедоступное"
+
+#~ msgid "Sound"
+#~ msgstr "Звук"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Urgent"
+#~ msgstr "Срочно"
+
+#~ msgid "Videos"
+#~ msgstr "Видео"
+
+#~ msgid "Synchronized"
+#~ msgstr "Синхронизировано"
+
+#~ msgid "Updating"
+#~ msgstr "Обновляется"
+
+#~ msgid "cool"
+#~ msgstr "Клёво"
+

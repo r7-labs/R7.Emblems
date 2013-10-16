@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>TranslationProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0DD48C16-5908-4A01-AF2D-8D35977700C9}</ProjectGuid>
+    <relPath>locale</relPath>
+    <outputType>RelativeToOutput</outputType>
+    <packageName>r7-emblems</packageName>
+    <translations>
+      <translations>
+        <Translation isoCode="ru" />
+        <Translation isoCode="en" />
+      </translations>
+    </translations>
+  </PropertyGroup>
+</Project>

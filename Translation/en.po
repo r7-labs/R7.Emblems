@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-01-23 16:09:21+0400\n"
+"PO-Revision-Date: 2013-01-23 16:09:37+0400\n"
+"Last-Translator: redhound\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: MonoDevelop Gettext addin\n"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-vnc"
+msgstr "VNC"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-sftp"
+msgstr "SFTP"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-sales"
+msgstr "Sales"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-money"
+msgstr "Money"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-sound"
+msgstr "Sound"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-documents-symbolic"
+msgstr "Documents"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-marketing"
+msgstr "Marketing"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-shared"
+msgstr "Shared"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-development"
+msgstr "Development"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-system"
+msgstr "System"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-mail"
+msgstr "Mail"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ubuntuone-synchronized"
+msgstr "Synchronized"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-cool"
+msgstr "Cool"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-synchronizing-symbolic"
+msgstr "Synchronizing"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-urgent"
+msgstr "Urgent"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-presentation"
+msgstr "Presentation"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-nowrite"
+msgstr "No write"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-xdmcp"
+msgstr "XDMCP"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-music-symbolic"
+msgstr "Music"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ok-symbolic"
+msgstr "OK"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-important"
+msgstr "Important"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-important-symbolic"
+msgstr "Important"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "slideshow-emblem"
+msgstr "Slideshow"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-documents"
+msgstr "Documents"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-downloads"
+msgstr "Downloads"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-photos-symbolic"
+msgstr "Photos"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-OK"
+msgstr "OK"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-camera"
+msgstr "Camera"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-multimedia"
+msgstr "Multimedia"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-readonly"
+msgstr "Read only"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-nx"
+msgstr "NX"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-desktop"
+msgstr "Desktop"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-favorite"
+msgstr "Favorite"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-unreadable"
+msgstr "Unreadable"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-web"
+msgstr "Web"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-new"
+msgstr "New"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-system-symbolic"
+msgstr "System"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-shared-symbolic"
+msgstr "Shared"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-favorite-symbolic"
+msgstr "Favorite"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-videos-symbolic"
+msgstr "Videos"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-photos"
+msgstr "Photos"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-rdp"
+msgstr "RDP"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-art"
+msgstr "Art"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-generic"
+msgstr "Generic"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-default-symbolic"
+msgstr "Default"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ubuntuone-updating"
+msgstr "Updating"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-people"
+msgstr "People"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ohno"
+msgstr "Oh, no!"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-ubuntuone-unsynchronized"
+msgstr "Unsynchronized"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-package"
+msgstr "Package"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-videos"
+msgstr "Videos"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-rdp-ssh"
+msgstr "RDP-SSH"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-personal"
+msgstr "Personal"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-noread"
+msgstr "No read"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-pictures"
+msgstr "Pictures"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-draft"
+msgstr "Draft"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-danger"
+msgstr "Danger"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-xdmcp-ssh"
+msgstr "XDMCP-SSH"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-default"
+msgstr "Default"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-plan"
+msgstr "Plan"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-synchronizing"
+msgstr "Synchronizing"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "remmina-vnc-ssh"
+msgstr "VNC-SSH"
+
+#: ../Redhound.Emblems/MainWindow.cs:3
+msgid "emblem-symbolic-link"
+msgstr "Symbolic link"
+
+#: ../Redhound.Emblems/MainWindow.cs:20
+msgid "Select a file"
+msgstr ""
+
+#: ../Redhound.Emblems/MainWindow.cs:20
+msgid "Select a folder"
+msgstr ""
+
+#: ../Redhound.Emblems/MainWindow.cs:21
+#: ../Redhound.Emblems/MainWindow.cs:34
+msgid "Emblems"
+msgstr ""
+
+#: ../Redhound.Emblems/MainWindow.cs:34
+msgid "Roman M. Yagodin <roman.yagodin@gmail.com>"
+msgstr ""
+
+#: ../Redhound.Emblems/MainWindow.cs:34
+msgid "English, Russian"
+msgstr ""
+
+#: ../Redhound.Emblems/gtk-gui/Redhound.Emblems.MainWindow.cs:1
+msgid "File"
+msgstr ""
+
+#: ../Redhound.Emblems/gtk-gui/Redhound.Emblems.MainWindow.cs:1
+msgid "Folder"
+msgstr ""
+
+#: ../Redhound.Emblems/gtk-gui/Redhound.Emblems.MainWindow.cs:1
+msgid "About"
+msgstr ""
+

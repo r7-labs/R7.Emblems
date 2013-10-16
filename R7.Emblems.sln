@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R7.Emblems", "R7.Emblems\R7.Emblems.csproj", "{9C050C26-891B-4057-BDD3-16929FFF69C7}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Translation", "Translation\Translation.mdproj", "{0DD48C16-5908-4A01-AF2D-8D35977700C9}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packages", "Packages\Packages.mdproj", "{E810CCD9-DCF9-40B7-885E-7D78C2F8FB11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD48C16-5908-4A01-AF2D-8D35977700C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0DD48C16-5908-4A01-AF2D-8D35977700C9}.Debug|x86.Build.0 = Debug|Any CPU
+		{0DD48C16-5908-4A01-AF2D-8D35977700C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{0DD48C16-5908-4A01-AF2D-8D35977700C9}.Release|x86.Build.0 = Release|Any CPU
+		{9C050C26-891B-4057-BDD3-16929FFF69C7}.Debug|x86.ActiveCfg = Debug|x86
+		{9C050C26-891B-4057-BDD3-16929FFF69C7}.Debug|x86.Build.0 = Debug|x86
+		{9C050C26-891B-4057-BDD3-16929FFF69C7}.Release|x86.ActiveCfg = Release|x86
+		{9C050C26-891B-4057-BDD3-16929FFF69C7}.Release|x86.Build.0 = Release|x86
+		{E810CCD9-DCF9-40B7-885E-7D78C2F8FB11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E810CCD9-DCF9-40B7-885E-7D78C2F8FB11}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = R7.Emblems\R7.Emblems.csproj
+	EndGlobalSection
+EndGlobal

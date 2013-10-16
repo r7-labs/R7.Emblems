@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Icon=emblem-cool
+Name=Emblems
+Name[ru]=Эмблемы
+Name[ru_RU]=Эмблемы
+Path=/usr/local/lib/r7-emblems
+Exec=mono R7.Emblems.exe "%f"
+Terminal=false
+Categories=Filesystem;

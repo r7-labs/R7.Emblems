@@ -1,0 +1,11 @@
+[Nemo Action]
+
+# https://wiki.archlinux.org/index.php/Nemo
+
+Name=Edit emblems...
+Name[ru_RU]=Редактировать эмблемы...
+Name[ru]=Редактировать эмблемы...
+Icon-Name=emblem-favorite
+Selection=S
+Extensions=any;
+Exec=mono /usr/local/lib/r7-emblems/R7.Emblems.exe %F
