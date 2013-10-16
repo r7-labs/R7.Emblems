@@ -25,6 +25,7 @@ namespace R7.Emblems
 			// Widget R7.Emblems.MainWindow
 			this.Name = "R7.Emblems.MainWindow";
 			this.Title = "";
+			this.Icon = global::Stetic.IconLoader.LoadIcon (this, "gtk-home", global::Gtk.IconSize.Menu);
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 			// Container child R7.Emblems.MainWindow.Gtk.Container+ContainerChild
 			this.vbox1 = new global::Gtk.VBox ();
@@ -41,7 +42,7 @@ namespace R7.Emblems
 			global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.filechooser1]));
 			w1.Position = 0;
 			// Container child hbox2.Gtk.Box+BoxChild
-			this.radioFile = new global::Gtk.RadioButton (global::Mono.Unix.Catalog.GetString("File"));
+			this.radioFile = new global::Gtk.RadioButton (global::Mono.Unix.Catalog.GetString ("File"));
 			this.radioFile.CanFocus = true;
 			this.radioFile.Name = "radioFile";
 			this.radioFile.DrawIndicator = true;
@@ -54,7 +55,7 @@ namespace R7.Emblems
 			w2.Expand = false;
 			w2.Fill = false;
 			// Container child hbox2.Gtk.Box+BoxChild
-			this.radioFolder = new global::Gtk.RadioButton (global::Mono.Unix.Catalog.GetString("Folder"));
+			this.radioFolder = new global::Gtk.RadioButton (global::Mono.Unix.Catalog.GetString ("Folder"));
 			this.radioFolder.CanFocus = true;
 			this.radioFolder.Name = "radioFolder";
 			this.radioFolder.DrawIndicator = true;
