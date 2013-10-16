@@ -371,9 +371,11 @@ namespace R7.Emblems
 			about.Authors = new string [] { Catalog.GetString("Roman M. Yagodin <roman.yagodin@gmail.com>") };
 			about.TranslatorCredits = Catalog.GetString("English, Russian") + " - " + Catalog.GetString("Roman M. Yagodin <roman.yagodin@gmail.com>");
 			about.WebsiteLabel = "code.google.com/p/nautilus-emblems";
-			about.Website = "http://code.google.com/p/nautilus-emblems/";
+			about.Website = "https://github.com/roman-yagodin/r7-emblems";
 			about.Copyright = "2012-2013 " + Catalog.GetString("Roman M. Yagodin <roman.yagodin@gmail.com>");
-			about.Logo = IconTheme.Default.LoadIcon("emblem-cool", 48, 0);
+
+			// FIXME: If icon was not found, causes dialog to crash
+			about.Logo = IconTheme.Default.LoadIcon("emblem-favorite", 48, 0);
 			about.Run ();
 			about.Destroy ();
 		}
