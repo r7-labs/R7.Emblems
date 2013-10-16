@@ -62,8 +62,6 @@
     <Compile Include="EmblemButton.cs" />
     <Compile Include="gtk-gui\R7.Emblems.MainWindow.cs" />
     <Compile Include="Gvfs.cs" />
-    <Compile Include="myWidget.cs" />
-    <Compile Include="gtk-gui\R7.Emblems.myWidget.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

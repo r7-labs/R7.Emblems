@@ -26,6 +26,15 @@
             <RootEntry path="..\R7.Emblems.sln" id=":root:" />
           </Builder>
         </Package>
+        <Package name="Tarball">
+          <Builder TargetDirectory=".." DefaultConfiguration="Release|x86" ctype="TarballDeployTarget">
+            <ChildEntries>
+              <SolutionItemReference path="..\R7.Emblems\R7.Emblems.csproj" />
+              <SolutionItemReference path="..\Translation\Translation.mdproj" />
+            </ChildEntries>
+            <RootEntry path="..\R7.Emblems.sln" id=":root:" />
+          </Builder>
+        </Package>
       </Packages>
     </Packages>
   </PropertyGroup>
