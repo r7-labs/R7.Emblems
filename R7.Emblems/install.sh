@@ -5,8 +5,6 @@
 
 PREFIX="/usr/local"
 PROJECTNAME="r7-emblems"
-# FILEMANAGER="file-manager" # Nautilus 3.6
-FILEMANAGER="nemo" # Nemo
 
 echo "About to install ${PROJECTNAME}..."
 
@@ -26,14 +24,10 @@ sudo cp -r -f "." "${PREFIX}/lib/${PROJECTNAME}"
 # install desktop file
 sudo cp -r -f "${PROJECTNAME}.desktop" "${PREFIX}/share/applications"
 
-# install nautilus-actions desktop file for current user
+echo "Done."
+echo
 
-# TODO: actions not depends to nautilus-actions! 
-# TODO: Namo uses it's own action format.
-
-if dpkg-query -W nautilus-actions; 
-then
-   cp -r -f "${PROJECTNAME}-action.desktop" "${HOME}/.local/share/$FILEMANAGER/actions"
-fi
-
-echo "Install complete."
+# hint about installing actions
+echo "If you like to install action for filemanager menu now,"
+echo "please run ./install-action-nemo.sh or ./install-action-nautilus.sh
+echo "according to filemanager you use."

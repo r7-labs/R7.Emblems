@@ -75,6 +75,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="r7-emblems.nemo_action" />
+    <None Include="install-action-nemo.sh" />
+    <None Include="install-action-nautilus.sh" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="r7-emblems.desktop">
