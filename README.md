@@ -1,7 +1,7 @@
 r7-emblems
 ==========
 
-Easy set emblems for files and folders
+Simple GTK# application to easily set emblems for files and folders
 
 
 About
