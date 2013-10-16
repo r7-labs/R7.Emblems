@@ -14,7 +14,7 @@ so I've decided to continue my work on R7.Emblems.
 
 To integrate with Nautilus, I recommend using nautilus-actions package. 
 Shortcuts for context menus for Nautilus (r7-emblems-action.desktop) and Nemo (r7-emblems.nemo_action) are provided.
-You can also try to use R7.Emblems with any gvfs-based file manager, or it also can use it as separate application.  
+You can also try to use R7.Emblems with any gvfs-based file manager, or it also can be used as separate application.  
 
 Install (experimental)
 ----------------------
