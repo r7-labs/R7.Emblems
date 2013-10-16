@@ -45,6 +45,7 @@ namespace R7.Emblems
 			this.radioFile = new global::Gtk.RadioButton (global::Mono.Unix.Catalog.GetString ("File"));
 			this.radioFile.CanFocus = true;
 			this.radioFile.Name = "radioFile";
+			this.radioFile.Active = true;
 			this.radioFile.DrawIndicator = true;
 			this.radioFile.UseUnderline = true;
 			this.radioFile.BorderWidth = ((uint)(6));
