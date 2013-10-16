@@ -370,7 +370,7 @@ namespace R7.Emblems
 			about.ProgramName = Catalog.GetString("Emblems");
 			about.Authors = new string [] { Catalog.GetString("Roman M. Yagodin <roman.yagodin@gmail.com>") };
 			about.TranslatorCredits = Catalog.GetString("English, Russian") + " - " + Catalog.GetString("Roman M. Yagodin <roman.yagodin@gmail.com>");
-			about.WebsiteLabel = "code.google.com/p/nautilus-emblems";
+			about.WebsiteLabel = "github.com/roman-yagodin/r7-emblems";
 			about.Website = "https://github.com/roman-yagodin/r7-emblems";
 			about.Copyright = "2012-2013 " + Catalog.GetString("Roman M. Yagodin <roman.yagodin@gmail.com>");
 
