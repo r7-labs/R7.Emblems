@@ -29,5 +29,5 @@ echo
 
 # hint about installing actions
 echo "If you like to install action for filemanager menu now,"
-echo "please run ./install-action-nemo.sh or ./install-action-nautilus.sh
+echo "please run ./install-action-nemo.sh or ./install-action-nautilus.sh"
 echo "according to filemanager you use."
