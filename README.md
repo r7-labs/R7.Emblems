@@ -48,3 +48,8 @@ Localization
 
 R7.Emblems do have english and russian translations. 
 Feel free to add more - sources contain complete MonoDevelop solution, including translation project. 
+
+TODO
+----
+
+Main thing to do about R7.Emblems is to make Debian packages to simplify deployment for Debian-based distributions. Any help welcomed in this direction.
