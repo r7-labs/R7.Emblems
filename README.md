@@ -1,4 +1,4 @@
-r7-emblems
+R7.Emblems
 ==========
 
 Simple GTK# application to easily set emblems for files and folders
