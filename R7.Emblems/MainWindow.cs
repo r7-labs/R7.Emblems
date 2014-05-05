@@ -387,5 +387,10 @@ namespace R7.Emblems
 			SetFileChooserAction (filechooser1, (sender as RadioButton).Active? 
 				FileChooserAction.Open : FileChooserAction.SelectFolder);
 		}	
+
+		protected void OnButtonClearAllClicked (object sender, EventArgs e)
+		{
+			ResetEmblemButtons (Emblems);
+		}
 	}
 }

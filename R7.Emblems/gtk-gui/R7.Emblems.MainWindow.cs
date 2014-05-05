@@ -15,6 +15,7 @@ namespace R7.Emblems
 		private global::Gtk.HBox hbox1;
 		private global::Gtk.HButtonBox hbuttonbox2;
 		private global::Gtk.Button buttonAbout;
+		private global::Gtk.Button buttonClearAll;
 		private global::Gtk.HButtonBox hbuttonbox1;
 		private global::Gtk.Button button3;
 		private global::Gtk.Button button2;
@@ -45,7 +46,6 @@ namespace R7.Emblems
 			this.radioFile = new global::Gtk.RadioButton (global::Mono.Unix.Catalog.GetString ("File"));
 			this.radioFile.CanFocus = true;
 			this.radioFile.Name = "radioFile";
-			this.radioFile.Active = true;
 			this.radioFile.DrawIndicator = true;
 			this.radioFile.UseUnderline = true;
 			this.radioFile.BorderWidth = ((uint)(6));
@@ -132,11 +132,37 @@ namespace R7.Emblems
 			global::Gtk.ButtonBox.ButtonBoxChild w18 = ((global::Gtk.ButtonBox.ButtonBoxChild)(this.hbuttonbox2 [this.buttonAbout]));
 			w18.Expand = false;
 			w18.Fill = false;
+			// Container child hbuttonbox2.Gtk.ButtonBox+ButtonBoxChild
+			this.buttonClearAll = new global::Gtk.Button ();
+			this.buttonClearAll.CanFocus = true;
+			this.buttonClearAll.Name = "buttonClearAll";
+			this.buttonClearAll.UseUnderline = true;
+			// Container child buttonClearAll.Gtk.Container+ContainerChild
+			global::Gtk.Alignment w19 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+			// Container child GtkAlignment.Gtk.Container+ContainerChild
+			global::Gtk.HBox w20 = new global::Gtk.HBox ();
+			w20.Spacing = 2;
+			// Container child GtkHBox.Gtk.Container+ContainerChild
+			global::Gtk.Image w21 = new global::Gtk.Image ();
+			w21.Pixbuf = global::Stetic.IconLoader.LoadIcon (this, "gtk-clear", global::Gtk.IconSize.Menu);
+			w20.Add (w21);
+			// Container child GtkHBox.Gtk.Container+ContainerChild
+			global::Gtk.Label w23 = new global::Gtk.Label ();
+			w23.LabelProp = global::Mono.Unix.Catalog.GetString ("Clear All");
+			w23.UseUnderline = true;
+			w20.Add (w23);
+			w19.Add (w20);
+			this.buttonClearAll.Add (w19);
+			this.hbuttonbox2.Add (this.buttonClearAll);
+			global::Gtk.ButtonBox.ButtonBoxChild w27 = ((global::Gtk.ButtonBox.ButtonBoxChild)(this.hbuttonbox2 [this.buttonClearAll]));
+			w27.Position = 1;
+			w27.Expand = false;
+			w27.Fill = false;
 			this.hbox1.Add (this.hbuttonbox2);
-			global::Gtk.Box.BoxChild w19 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.hbuttonbox2]));
-			w19.Position = 0;
-			w19.Expand = false;
-			w19.Fill = false;
+			global::Gtk.Box.BoxChild w28 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.hbuttonbox2]));
+			w28.Position = 0;
+			w28.Expand = false;
+			w28.Fill = false;
 			// Container child hbox1.Gtk.Box+BoxChild
 			this.hbuttonbox1 = new global::Gtk.HButtonBox ();
 			this.hbuttonbox1.Name = "hbuttonbox1";
@@ -151,9 +177,9 @@ namespace R7.Emblems
 			this.button3.UseUnderline = true;
 			this.button3.Label = "gtk-cancel";
 			this.hbuttonbox1.Add (this.button3);
-			global::Gtk.ButtonBox.ButtonBoxChild w20 = ((global::Gtk.ButtonBox.ButtonBoxChild)(this.hbuttonbox1 [this.button3]));
-			w20.Expand = false;
-			w20.Fill = false;
+			global::Gtk.ButtonBox.ButtonBoxChild w29 = ((global::Gtk.ButtonBox.ButtonBoxChild)(this.hbuttonbox1 [this.button3]));
+			w29.Expand = false;
+			w29.Fill = false;
 			// Container child hbuttonbox1.Gtk.ButtonBox+ButtonBoxChild
 			this.button2 = new global::Gtk.Button ();
 			this.button2.CanFocus = true;
@@ -162,18 +188,18 @@ namespace R7.Emblems
 			this.button2.UseUnderline = true;
 			this.button2.Label = "gtk-ok";
 			this.hbuttonbox1.Add (this.button2);
-			global::Gtk.ButtonBox.ButtonBoxChild w21 = ((global::Gtk.ButtonBox.ButtonBoxChild)(this.hbuttonbox1 [this.button2]));
-			w21.Position = 1;
-			w21.Expand = false;
-			w21.Fill = false;
+			global::Gtk.ButtonBox.ButtonBoxChild w30 = ((global::Gtk.ButtonBox.ButtonBoxChild)(this.hbuttonbox1 [this.button2]));
+			w30.Position = 1;
+			w30.Expand = false;
+			w30.Fill = false;
 			this.hbox1.Add (this.hbuttonbox1);
-			global::Gtk.Box.BoxChild w22 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.hbuttonbox1]));
-			w22.Position = 1;
+			global::Gtk.Box.BoxChild w31 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.hbuttonbox1]));
+			w31.Position = 1;
 			this.vbox1.Add (this.hbox1);
-			global::Gtk.Box.BoxChild w23 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
-			w23.Position = 4;
-			w23.Expand = false;
-			w23.Fill = false;
+			global::Gtk.Box.BoxChild w32 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
+			w32.Position = 4;
+			w32.Expand = false;
+			w32.Fill = false;
 			this.Add (this.vbox1);
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();
@@ -185,6 +211,7 @@ namespace R7.Emblems
 			this.filechooser1.SelectionChanged += new global::System.EventHandler (this.OnFilechooser1SelectionChanged);
 			this.radioFile.Toggled += new global::System.EventHandler (this.OnRadioFileToggled);
 			this.buttonAbout.Clicked += new global::System.EventHandler (this.OnButtonAboutClicked);
+			this.buttonClearAll.Clicked += new global::System.EventHandler (this.OnButtonClearAllClicked);
 			this.button3.Clicked += new global::System.EventHandler (this.OnButton3Clicked);
 			this.button2.Clicked += new global::System.EventHandler (this.OnButton2Clicked);
 		}
