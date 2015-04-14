@@ -1,31 +1,28 @@
-if ENABLE_DEBUG_X86
 
+PROJECT_FILE = R7.Emblems.csproj
 ASSEMBLY_COMPILER_COMMAND = xbuild
-ASSEMBLY_COMPILER_FLAGS = /p:Configuration=Debug
-BUILD_DIR = bin/Debug
 ASSEMBLY = $(BUILD_DIR)/R7.Emblems.exe
-ASSEMBLY_MDB = $(ASSEMBLY).mdb
-COMPILE_TARGET = winexe
 PROJECT_REFERENCES = 
 
+if ENABLE_DEBUG_X86
+ASSEMBLY_COMPILER_FLAGS = /p:Configuration=Debug
+BUILD_DIR = bin/Debug
+ASSEMBLY_MDB = $(ASSEMBLY).mdb
 endif
 
 if ENABLE_RELEASE_X86
-
-ASSEMBLY_COMPILER_COMMAND = xbuild
 ASSEMBLY_COMPILER_FLAGS = /p:Configuration=Release
 BUILD_DIR = bin/Release
-ASSEMBLY = $(BUILD_DIR)/R7.Emblems.exe
 ASSEMBLY_MDB = 
-COMPILE_TARGET = winexe
-PROJECT_REFERENCES = 
-
 endif
 
 AL=al
 SATELLITE_ASSEMBLY_NAME=$(notdir $(basename $(ASSEMBLY))).resources.dll
 
-all: $(ASSEMBLY)
+STARTER_SCRIPT_SOURCE = r7-emblems.sh.in
+STARTER_SCRIPT = r7-emblems.sh
+
+all: $(STARTER_SCRIPT) $(ASSEMBLY) 
 
 PROGRAMFILES =
 
@@ -35,23 +32,27 @@ DATA_FILES =
 
 RESOURCES =
 
-EXTRAS =
-
 REFERENCES =
 
 DLL_REFERENCES =
 
 EXTRA_DIST = \
-    Makefile.am \
-    readme.txt
+	Makefile.am \
+	$(STARTER_SCRIPT_SOURCE) \
+	readme.txt
 
-CLEANFILES = $(BUILD_DIR)/*
+$(STARTER_SCRIPT): $(STARTER_SCRIPT_SOURCE)
+	$(AM_V_GEN) sed -e 's|@libdir[@]|$(libdir)|g' $< > $@
+	chmod +x $@
 
-include $(top_srcdir)/Makefile.include
+CLEANFILES = $(BUILD_DIR)/* $(STARTER_SCRIPT)
 
-$(eval $(call emit_resgen_targets))
+bin_SCRIPTS = $(STARTER_SCRIPT)
+
+desktopdir = $(datarootdir)/applications
+desktop_DATA = r7-emblems.desktop
 
 $(ASSEMBLY_MDB): $(ASSEMBLY)
 
-$(ASSEMBLY): $(build_sources) $(build_resources) $(build_datafiles) $(DLL_REFERENCES) $(PROJECT_REFERENCES) $(build_satellite_assembly_list)
-	$(ASSEMBLY_COMPILER_COMMAND) R7.Emblems.csproj $(ASSEMBLY_COMPILER_FLAGS)
+$(ASSEMBLY): $(PROJECT_FILE)
+	$(ASSEMBLY_COMPILER_COMMAND) $(PROJECT_FILE) $(ASSEMBLY_COMPILER_FLAGS)

@@ -74,6 +74,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Makefile.am" />
+    <None Include="r7-emblems.sh.in" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="r7-emblems.desktop">
