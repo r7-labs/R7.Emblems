@@ -1,5 +1,5 @@
 
-PROJECT_FILE = R7.Emblems.csproj
+PROJECT_FILE = $(srcdir)/R7.Emblems.csproj
 ASSEMBLY_COMPILER_COMMAND = xbuild
 ASSEMBLY = $(BUILD_DIR)/R7.Emblems.exe
 PROJECT_REFERENCES = 
@@ -24,17 +24,16 @@ STARTER_SCRIPT = r7-emblems.sh
 
 all: $(STARTER_SCRIPT) $(ASSEMBLY) 
 
-FILES = \
+EXTRA_DIST = \
 	$(PROJECT_FILE) \
+	gtk-gui/gui.stetic \
 	gtk-gui/generated.cs \
-	gtk-gui/MainWindow.cs \
+	gtk-gui/R7.Emblems.MainWindow.cs \
 	MainWindow.cs \
 	AssemblyInfo.cs \
 	EmblemButton.cs \
 	Gvfs.cs \
-	Main.cs
-
-EXTRA_DIST = \
+	Main.cs \
 	$(STARTER_SCRIPT_SOURCE) \
 	Makefile.am \
 	readme.txt
