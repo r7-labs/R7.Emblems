@@ -72,13 +72,12 @@ DATA_FILES =
 
 RESOURCES = gtk-gui/gui.stetic 
 
-EXTRAS = \
-	readme.txt \
-	r7-emblems.nemo_action \
-	install-action-nemo.sh \
+EXTRAS =  \
 	install-action-nautilus.sh \
-	r7-emblems.desktop \
-	r7-emblems-action.desktop 
+	install-action-nemo.sh \
+	Makefile.am \
+	r7-emblems.nemo_action \
+	readme.txt 
 
 REFERENCES =  \
 	Mono.Posix \

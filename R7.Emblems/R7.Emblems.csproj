@@ -95,15 +95,14 @@
             <MessageStyle LineAlign="0" />
           </ChangeLogPolicy>
         </Policies>
-        <Deployment.LinuxDeployData generateScript="False" />
         <MonoDevelop.Autotools.MakefileInfo IntegrationEnabled="True" RelativeMakefileName="Makefile.am" SyncReferences="True" IsAutotoolsProject="True" RelativeConfigureInPath="..">
           <BuildFilesVar Sync="True" Name="FILES" />
           <DeployFilesVar Sync="True" Name="PROGRAMFILES" />
           <ResourcesVar Sync="True" Name="RESOURCES" />
-          <OthersVar Sync="True" Name="EXTRA_DIST" />
+          <OthersVar Sync="True" Name="EXTRAS" />
           <GacRefVar Sync="True" Name="REFERENCES" />
-          <AsmRefVar Sync="True" Name="REFERENCES" />
-          <ProjectRefVar Sync="True" Name="REFERENCES" />
+          <AsmRefVar Sync="True" Name="DLL_REFERENCES" />
+          <ProjectRefVar Sync="True" Name="PROJECT_REFERENCES" />
         </MonoDevelop.Autotools.MakefileInfo>
       </Properties>
     </MonoDevelop>
