@@ -17,9 +17,9 @@ SHAMROCK_EXPAND_DATADIR
 
 AC_PROG_INSTALL
 
-AC_PATH_PROG(DMCS, dmcs, no)
-if test "x$DMCS" = "xno"; then
-        AC_MSG_ERROR([dmcs Not found])
+AC_PATH_PROG(XBUILD, xbuild, no)
+if test "x$XBUILD" = "xno"; then
+        AC_MSG_ERROR([xbuild Not found])
 fi
 
 
