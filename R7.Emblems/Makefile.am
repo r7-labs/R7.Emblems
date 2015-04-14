@@ -1,18 +1,19 @@
 
 PROJECT_FILE = $(srcdir)/R7.Emblems.csproj
 ASSEMBLY_COMPILER_COMMAND = xbuild
-ASSEMBLY = $(BUILD_DIR)/R7.Emblems.exe
 PROJECT_REFERENCES = 
 
 if ENABLE_DEBUG_X86
 ASSEMBLY_COMPILER_FLAGS = /p:Configuration=Debug
 BUILD_DIR = bin/Debug
+ASSEMBLY = $(BUILD_DIR)/R7.Emblems.exe
 ASSEMBLY_MDB = $(ASSEMBLY).mdb
 endif
 
 if ENABLE_RELEASE_X86
 ASSEMBLY_COMPILER_FLAGS = /p:Configuration=Release
 BUILD_DIR = bin/Release
+ASSEMBLY = $(BUILD_DIR)/R7.Emblems.exe
 ASSEMBLY_MDB = 
 endif
 
