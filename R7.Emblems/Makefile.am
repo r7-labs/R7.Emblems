@@ -24,21 +24,19 @@ STARTER_SCRIPT = r7-emblems.sh
 
 all: $(STARTER_SCRIPT) $(ASSEMBLY) 
 
-PROGRAMFILES =
-
-FILES =
-
-DATA_FILES =
-
-RESOURCES =
-
-REFERENCES =
-
-DLL_REFERENCES =
+FILES = \
+	$(PROJECT_FILE) \
+	gtk-gui/generated.cs \
+	gtk-gui/MainWindow.cs \
+	MainWindow.cs \
+	AssemblyInfo.cs \
+	EmblemButton.cs \
+	Gvfs.cs \
+	Main.cs
 
 EXTRA_DIST = \
-	Makefile.am \
 	$(STARTER_SCRIPT_SOURCE) \
+	Makefile.am \
 	readme.txt
 
 $(STARTER_SCRIPT): $(STARTER_SCRIPT_SOURCE)
@@ -50,7 +48,15 @@ CLEANFILES = $(BUILD_DIR)/* $(STARTER_SCRIPT)
 bin_SCRIPTS = $(STARTER_SCRIPT)
 
 desktopdir = $(datarootdir)/applications
-desktop_DATA = r7-emblems.desktop
+dist_desktop_DATA = r7-emblems.desktop
+
+templatesdir = $(libdir)/$(PACKAGE)
+dist_templates_DATA = \
+	r7-emblems.nemo_action \
+	r7-emblems-action.desktop
+
+assemblydir = $(libdir)/$(PACKAGE)
+assembly_DATA = $(ASSEMBLY)
 
 $(ASSEMBLY_MDB): $(ASSEMBLY)
 
