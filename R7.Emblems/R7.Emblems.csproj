@@ -81,6 +81,7 @@
     <None Include="r7-emblems.nemo_action">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Makefile.am" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="r7-emblems.desktop">
@@ -101,6 +102,15 @@
           </ChangeLogPolicy>
         </Policies>
         <Deployment.LinuxDeployData generateScript="False" />
+        <MonoDevelop.Autotools.MakefileInfo IntegrationEnabled="True" RelativeMakefileName="Makefile.am" SyncReferences="True" IsAutotoolsProject="True" RelativeConfigureInPath="..">
+          <BuildFilesVar Sync="True" Name="FILES" />
+          <DeployFilesVar Sync="True" Name="PROGRAMFILES" />
+          <ResourcesVar Sync="True" Name="RESOURCES" />
+          <OthersVar Sync="True" Name="EXTRA_DIST" />
+          <GacRefVar Sync="True" Name="REFERENCES" />
+          <AsmRefVar Sync="True" Name="REFERENCES" />
+          <ProjectRefVar Sync="True" Name="REFERENCES" />
+        </MonoDevelop.Autotools.MakefileInfo>
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
