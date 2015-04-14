@@ -22,6 +22,10 @@ if test "x$XBUILD" = "xno"; then
         AC_MSG_ERROR([xbuild Not found])
 fi
 
+AC_PATH_PROG(MSGFMT, msgfmt, no)
+if test "x$MSGFMT" = "xno"; then
+        AC_MSG_ERROR([msgfmt Not found])
+fi
 
 AC_ARG_ENABLE(debug_x86,
 	AC_HELP_STRING([--enable-debug_x86],
