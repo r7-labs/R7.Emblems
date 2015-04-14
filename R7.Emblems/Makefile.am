@@ -1,14 +1,12 @@
 
-EXTRA_DIST =  \
-	install-action-nautilus.sh \
-	install-action-nemo.sh \
-	Makefile.am \
-	r7-emblems.nemo_action \
-	readme.txt  
+EXTRA_DIST = \
+    Makefile.am \
+    readme.txt
 
 # Warning: This is an automatically generated file, do not edit!
 
 if ENABLE_DEBUG_X86
+
 ASSEMBLY_COMPILER_COMMAND = dmcs
 ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG;"
 ASSEMBLY = bin/Debug/R7.Emblems.exe
@@ -19,16 +17,17 @@ BUILD_DIR = bin/Debug
 
 R7_EMBLEMS_EXE_MDB_SOURCE=bin/Debug/R7.Emblems.exe.mdb
 R7_EMBLEMS_EXE_MDB=$(BUILD_DIR)/R7.Emblems.exe.mdb
-README_TXT_SOURCE=readme.txt
-R7_EMBLEMS_NEMO_ACTION_SOURCE=r7-emblems.nemo_action
-INSTALL_ACTION_NEMO_SH_SOURCE=install-action-nemo.sh
-INSTALL_ACTION_NAUTILUS_SH_SOURCE=install-action-nautilus.sh
-R7_EMBLEMS_DESKTOP_SOURCE=r7-emblems.desktop
-R7_EMBLEMS_ACTION_DESKTOP_SOURCE=r7-emblems-action.desktop
+#README_TXT_SOURCE=readme.txt
+#R7_EMBLEMS_NEMO_ACTION_SOURCE=r7-emblems.nemo_action
+#INSTALL_ACTION_NEMO_SH_SOURCE=install-action-nemo.sh
+#INSTALL_ACTION_NAUTILUS_SH_SOURCE=install-action-nautilus.sh
+#R7_EMBLEMS_DESKTOP_SOURCE=r7-emblems.desktop
+#R7_EMBLEMS_ACTION_DESKTOP_SOURCE=r7-emblems-action.desktop
 
 endif
 
 if ENABLE_RELEASE_X86
+
 ASSEMBLY_COMPILER_COMMAND = dmcs
 ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize+
 ASSEMBLY = bin/Release/R7.Emblems.exe
@@ -38,12 +37,12 @@ PROJECT_REFERENCES =
 BUILD_DIR = bin/Release
 
 R7_EMBLEMS_EXE_MDB=
-README_TXT_SOURCE=readme.txt
-R7_EMBLEMS_NEMO_ACTION_SOURCE=r7-emblems.nemo_action
-INSTALL_ACTION_NEMO_SH_SOURCE=install-action-nemo.sh
-INSTALL_ACTION_NAUTILUS_SH_SOURCE=install-action-nautilus.sh
-R7_EMBLEMS_DESKTOP_SOURCE=r7-emblems.desktop
-R7_EMBLEMS_ACTION_DESKTOP_SOURCE=r7-emblems-action.desktop
+#README_TXT_SOURCE=readme.txt
+#R7_EMBLEMS_NEMO_ACTION_SOURCE=r7-emblems.nemo_action
+#INSTALL_ACTION_NEMO_SH_SOURCE=install-action-nemo.sh
+#INSTALL_ACTION_NAUTILUS_SH_SOURCE=install-action-nautilus.sh
+#R7_EMBLEMS_DESKTOP_SOURCE=r7-emblems.desktop
+#R7_EMBLEMS_ACTION_DESKTOP_SOURCE=r7-emblems-action.desktop
 
 endif
 
@@ -51,9 +50,8 @@ AL=al
 SATELLITE_ASSEMBLY_NAME=$(notdir $(basename $(ASSEMBLY))).resources.dll
 
 PROGRAMFILES =  \
-	r7-emblems.desktop \
-	r7-emblems-action.desktop  
-
+	r7-emblems-action.desktop \
+    r7-emblems.nemo_action
 
 RESGEN=resgen2
 	
@@ -68,16 +66,11 @@ FILES =  \
 	Main.cs \
 	MainWindow.cs 
 
-DATA_FILES = 
+DATA_FILES = r7-emblems.desktop
 
 RESOURCES = gtk-gui/gui.stetic 
 
-EXTRAS =  \
-	install-action-nautilus.sh \
-	install-action-nemo.sh \
-	Makefile.am \
-	r7-emblems.nemo_action \
-	readme.txt 
+EXTRAS =
 
 REFERENCES =  \
 	Mono.Posix \
@@ -90,20 +83,14 @@ CLEANFILES = $(PROGRAMFILES)
 
 include $(top_srcdir)/Makefile.include
     
-README_TXT = $(BUILD_DIR)/readme.txt
-R7_EMBLEMS_NEMO_ACTION = $(BUILD_DIR)/r7-emblems.nemo_action
-INSTALL_ACTION_NEMO_SH = $(BUILD_DIR)/install-action-nemo.sh
-INSTALL_ACTION_NAUTILUS_SH = $(BUILD_DIR)/install-action-nautilus.sh
-R7_EMBLEMS_DESKTOP = $(BUILD_DIR)/r7-emblems.desktop
-R7_EMBLEMS_ACTION_DESKTOP = $(BUILD_DIR)/r7-emblems-action.desktop
+R7_EMBLEMS_NEMO_ACTION = r7-emblems.nemo_action
+#R7_EMBLEMS_DESKTOP = r7-emblems.desktop
+R7_EMBLEMS_ACTION_DESKTOP = r7-emblems-action.desktop
 
-$(eval $(call emit-deploy-target,README_TXT))
+$(eval $(call emit-deploy-target,ASSEMBLY))
 $(eval $(call emit-deploy-target,R7_EMBLEMS_NEMO_ACTION))
-$(eval $(call emit-deploy-target,INSTALL_ACTION_NEMO_SH))
-$(eval $(call emit-deploy-target,INSTALL_ACTION_NAUTILUS_SH))
-$(eval $(call emit-deploy-target,R7_EMBLEMS_DESKTOP))
+#$(eval $(call emit-deploy-target,R7_EMBLEMS_DESKTOP))
 $(eval $(call emit-deploy-target,R7_EMBLEMS_ACTION_DESKTOP))
-
 
 $(eval $(call emit_resgen_targets))
 $(build_xamlg_list): %.xaml.g.cs: %.xaml

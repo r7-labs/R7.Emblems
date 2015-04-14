@@ -64,27 +64,21 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="readme.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="install-action-nemo.sh">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="install-action-nautilus.sh">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DeployService-Deploy>True</DeployService-Deploy>
     </None>
     <None Include="r7-emblems.nemo_action">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DeployService-Deploy>True</DeployService-Deploy>
     </None>
     <None Include="Makefile.am" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="r7-emblems.desktop">
       <DeployService-TargetDirectoryId>Linux.DesktopApplications</DeployService-TargetDirectoryId>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DeployService-Deploy>True</DeployService-Deploy>
     </Content>
     <Content Include="r7-emblems-action.desktop">
       <DeployService-TargetDirectoryId>Linux.DesktopApplications</DeployService-TargetDirectoryId>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DeployService-Deploy>True</DeployService-Deploy>
     </Content>
   </ItemGroup>
   <ProjectExtensions>
@@ -95,15 +89,6 @@
             <MessageStyle LineAlign="0" />
           </ChangeLogPolicy>
         </Policies>
-        <MonoDevelop.Autotools.MakefileInfo IntegrationEnabled="True" RelativeMakefileName="Makefile.am" SyncReferences="True" IsAutotoolsProject="True" RelativeConfigureInPath="..">
-          <BuildFilesVar Sync="True" Name="FILES" />
-          <DeployFilesVar Sync="True" Name="PROGRAMFILES" />
-          <ResourcesVar Sync="True" Name="RESOURCES" />
-          <OthersVar Sync="True" Name="EXTRAS" />
-          <GacRefVar Sync="True" Name="REFERENCES" />
-          <AsmRefVar Sync="True" Name="DLL_REFERENCES" />
-          <ProjectRefVar Sync="True" Name="PROJECT_REFERENCES" />
-        </MonoDevelop.Autotools.MakefileInfo>
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
