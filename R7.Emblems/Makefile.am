@@ -19,8 +19,6 @@ BUILD_DIR = bin/Debug
 
 R7_EMBLEMS_EXE_MDB_SOURCE=bin/Debug/R7.Emblems.exe.mdb
 R7_EMBLEMS_EXE_MDB=$(BUILD_DIR)/R7.Emblems.exe.mdb
-INSTALL_SH_SOURCE=install.sh
-UNINSTALL_SH_SOURCE=uninstall.sh
 README_TXT_SOURCE=readme.txt
 R7_EMBLEMS_NEMO_ACTION_SOURCE=r7-emblems.nemo_action
 INSTALL_ACTION_NEMO_SH_SOURCE=install-action-nemo.sh
@@ -40,8 +38,6 @@ PROJECT_REFERENCES =
 BUILD_DIR = bin/Release
 
 R7_EMBLEMS_EXE_MDB=
-INSTALL_SH_SOURCE=install.sh
-UNINSTALL_SH_SOURCE=uninstall.sh
 README_TXT_SOURCE=readme.txt
 R7_EMBLEMS_NEMO_ACTION_SOURCE=r7-emblems.nemo_action
 INSTALL_ACTION_NEMO_SH_SOURCE=install-action-nemo.sh
@@ -77,8 +73,6 @@ DATA_FILES =
 RESOURCES = gtk-gui/gui.stetic 
 
 EXTRAS = \
-	install.sh \
-	uninstall.sh \
 	readme.txt \
 	r7-emblems.nemo_action \
 	install-action-nemo.sh \
@@ -96,9 +90,7 @@ DLL_REFERENCES =
 CLEANFILES = $(PROGRAMFILES) 
 
 include $(top_srcdir)/Makefile.include
-
-INSTALL_SH = $(BUILD_DIR)/install.sh
-UNINSTALL_SH = $(BUILD_DIR)/uninstall.sh
+    
 README_TXT = $(BUILD_DIR)/readme.txt
 R7_EMBLEMS_NEMO_ACTION = $(BUILD_DIR)/r7-emblems.nemo_action
 INSTALL_ACTION_NEMO_SH = $(BUILD_DIR)/install-action-nemo.sh
@@ -106,8 +98,6 @@ INSTALL_ACTION_NAUTILUS_SH = $(BUILD_DIR)/install-action-nautilus.sh
 R7_EMBLEMS_DESKTOP = $(BUILD_DIR)/r7-emblems.desktop
 R7_EMBLEMS_ACTION_DESKTOP = $(BUILD_DIR)/r7-emblems-action.desktop
 
-$(eval $(call emit-deploy-target,INSTALL_SH))
-$(eval $(call emit-deploy-target,UNINSTALL_SH))
 $(eval $(call emit-deploy-target,README_TXT))
 $(eval $(call emit-deploy-target,R7_EMBLEMS_NEMO_ACTION))
 $(eval $(call emit-deploy-target,INSTALL_ACTION_NEMO_SH))
