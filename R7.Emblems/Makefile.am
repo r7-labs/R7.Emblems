@@ -1,12 +1,10 @@
 
 EXTRA_DIST =  \
-	install.sh \
 	install-action-nautilus.sh \
 	install-action-nemo.sh \
 	Makefile.am \
 	r7-emblems.nemo_action \
-	readme.txt \
-	uninstall.sh  
+	readme.txt  
 
 # Warning: This is an automatically generated file, do not edit!
 
