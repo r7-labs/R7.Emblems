@@ -8,4 +8,4 @@ Name[ru]=Редактировать эмблемы...
 Icon-Name=emblem-favorite
 Selection=S
 Extensions=any;
-Exec=mono /usr/local/lib/r7-emblems/R7.Emblems.exe %F
+Exec=mono /usr/local/lib/r7-emblems/R7.Emblems.exe "%F"
