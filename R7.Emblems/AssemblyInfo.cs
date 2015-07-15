@@ -4,7 +4,7 @@
 //  Author:
 //       Roman M. Yagodin <roman.yagodin@gmail.com>
 // 
-//  Copyright (c) 2012-2013  Roman M. Yagodin
+//  Copyright (c) 2012-2015  Roman M. Yagodin
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -30,7 +30,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("2012-2013 Roman M. Yagodin")]
+[assembly: AssemblyCopyright("2012-2015 Roman M. Yagodin")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
