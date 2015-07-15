@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD75EC70-3A28-4470-AEDF-DF33372406CF}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		LICENSE.md = LICENSE.md
 	EndProjectSection
 EndProject
 Global
@@ -31,8 +32,5 @@ Global
 		{E810CCD9-DCF9-40B7-885E-7D78C2F8FB11}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = R7.Emblems\R7.Emblems.csproj
 	EndGlobalSection
 EndGlobal
