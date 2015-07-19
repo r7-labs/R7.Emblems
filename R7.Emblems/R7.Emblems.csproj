@@ -75,6 +75,7 @@
     </None>
     <None Include="Makefile.am" />
     <None Include="r7-emblems.sh.in" />
+    <None Include="Translation.targets" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="r7-emblems.desktop">
@@ -98,4 +99,6 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <Import Project="Translation.targets" />
+  <Target Name="AfterBuild" DependsOnTargets="Translation" />
 </Project>

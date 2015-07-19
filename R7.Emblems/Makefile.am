@@ -25,8 +25,16 @@ STARTER_SCRIPT = r7-emblems.sh
 
 all: $(STARTER_SCRIPT) $(ASSEMBLY) 
 
+TRANSLATION_FILES = \
+	Translation.targets \
+	../po/Translation.mdproj \
+	../po/messages.po \
+	../po/en.po \
+	../po/ru.po
+
 EXTRA_DIST = \
 	$(PROJECT_FILE) \
+	$(TRANSLATION_FILES) \
 	gtk-gui/gui.stetic \
 	gtk-gui/generated.cs \
 	gtk-gui/R7.Emblems.MainWindow.cs \

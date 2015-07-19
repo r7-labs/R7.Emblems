@@ -5,7 +5,7 @@
     <target-gtk-version>2.12</target-gtk-version>
   </configuration>
   <import>
-    <widget-library name="../bin/Debug/R7.Emblems.exe" internal="true" />
+    <widget-library name="../bin/Release/R7.Emblems.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="R7.Emblems.MainWindow" design-size="536 344">
     <property name="MemberName" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Translation" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PoInputPath>../po</PoInputPath>
+    <MoOutputPath>$(OutputPath)locale</MoOutputPath>
+  </PropertyGroup>
+  <Target Name="Translation">
+    <Exec Command="sh -c 'mkdir -p $(MoOutputPath)/en/LC_MESSAGES'" />
+    <Exec Command="sh -c 'mkdir -p $(MoOutputPath)/ru/LC_MESSAGES'" />
+    <Exec Command="msgfmt -o $(MoOutputPath)/en/LC_MESSAGES/r7-emblems.mo $(PoInputPath)/en.po" />
+    <Exec Command="msgfmt -o $(MoOutputPath)/ru/LC_MESSAGES/r7-emblems.mo $(PoInputPath)/ru.po" />
+  </Target>
+</Project>

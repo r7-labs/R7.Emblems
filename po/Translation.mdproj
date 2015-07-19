@@ -16,5 +16,10 @@
         <Translation isoCode="en" />
       </translations>
     </translations>
+    <projectInformations>
+      <projectInformations>
+        <TranslationProjectInformation projectName="R7.Emblems" isIncluded="False" />
+      </projectInformations>
+    </projectInformations>
   </PropertyGroup>
 </Project>
